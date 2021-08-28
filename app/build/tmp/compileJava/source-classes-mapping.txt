@@ -37,8 +37,8 @@ br/ufpe/cin/if688/minijava/ast/NewArray.java
  br.ufpe.cin.if688.minijava.ast.NewArray
 br/ufpe/cin/if688/minijava/visitor/PrettyPrintVisitor.java
  br.ufpe.cin.if688.minijava.visitor.PrettyPrintVisitor
-br/ufpe/cin/if688/minijava/App.java
- br.ufpe.cin.if688.minijava.App
+br/ufpe/cin/if688/minijava/ast/VarDeclList.java
+ br.ufpe.cin.if688.minijava.ast.VarDeclList
 br/ufpe/cin/if688/minijava/ast/Call.java
  br.ufpe.cin.if688.minijava.ast.Call
 br/ufpe/cin/if688/minijava/ast/If.java
@@ -89,8 +89,8 @@ br/ufpe/cin/if688/minijava/ast/True.java
  br.ufpe.cin.if688.minijava.ast.True
 br/ufpe/cin/if688/minijava/ast/Plus.java
  br.ufpe.cin.if688.minijava.ast.Plus
-br/ufpe/cin/if688/minijava/visitor/TypeCheckVisitor.java
- br.ufpe.cin.if688.minijava.visitor.TypeCheckVisitor
+br/ufpe/cin/if688/minijava/visitor/BuildSymbolTableVisitor.java
+ br.ufpe.cin.if688.minijava.visitor.BuildSymbolTableVisitor
 br/ufpe/cin/if688/minijava/exceptions/UndefinedClassException.java
  br.ufpe.cin.if688.minijava.exceptions.UndefinedClassException
 br/ufpe/cin/if688/minijava/ast/ClassDeclList.java
@@ -135,8 +135,8 @@ br/ufpe/cin/if688/minijava/ast/ClassDecl.java
  br.ufpe.cin.if688.minijava.ast.ClassDecl
 br/ufpe/cin/if688/minijava/antlr/MiniJavaGrammarBaseListener.java
  br.ufpe.cin.if688.minijava.antlr.MiniJavaGrammarBaseListener
-br/ufpe/cin/if688/minijava/visitor/BuildSymbolTableVisitor.java
- br.ufpe.cin.if688.minijava.visitor.BuildSymbolTableVisitor
+br/ufpe/cin/if688/minijava/ast/Assign.java
+ br.ufpe.cin.if688.minijava.ast.Assign
 br/ufpe/cin/if688/minijava/antlr/MiniJavaGrammarVisitor.java
  br.ufpe.cin.if688.minijava.antlr.MiniJavaGrammarVisitor
 br/ufpe/cin/if688/minijava/ast/MainClass.java
@@ -165,7 +165,7 @@ br/ufpe/cin/if688/minijava/exceptions/UndefinedMethodException.java
  br.ufpe.cin.if688.minijava.exceptions.UndefinedMethodException
 br/ufpe/cin/if688/minijava/symboltable/SymbolTable.java
  br.ufpe.cin.if688.minijava.symboltable.SymbolTable
-br/ufpe/cin/if688/minijava/ast/VarDeclList.java
- br.ufpe.cin.if688.minijava.ast.VarDeclList
-br/ufpe/cin/if688/minijava/ast/Assign.java
- br.ufpe.cin.if688.minijava.ast.Assign
+br/ufpe/cin/if688/minijava/App.java
+ br.ufpe.cin.if688.minijava.App
+br/ufpe/cin/if688/minijava/visitor/TypeCheckVisitor.java
+ br.ufpe.cin.if688.minijava.visitor.TypeCheckVisitor
