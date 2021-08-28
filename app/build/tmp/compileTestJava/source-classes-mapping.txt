@@ -1,0 +1,2 @@
+br/ufpe/cin/if688/minijava/TypeCheckerTest.java
+ br.ufpe.cin.if688.minijava.TypeCheckerTest
